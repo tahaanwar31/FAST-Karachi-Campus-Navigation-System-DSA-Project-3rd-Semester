@@ -1,6 +1,8 @@
 # FAST Karachi Campus Navigation System
 > **3rd Semester DSA Project** | FAST NUCES Karachi
 
+**Live Demo:** [fast-karachi-campus-navigation-syst.vercel.app](https://fast-karachi-campus-navigation-syst.vercel.app/)
+
 An interactive campus navigation system that finds the shortest path between locations across the FAST NUCES Karachi campus and inside buildings (EE & CS Departments). Built with custom implementations of core data structures and algorithms — no STL containers used for the core logic.
 
 ---
