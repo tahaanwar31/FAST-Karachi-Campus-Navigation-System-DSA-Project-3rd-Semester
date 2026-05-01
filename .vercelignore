@@ -1,0 +1,10 @@
+*.exe
+*.dll
+*.o
+*.cpp
+*.h
+Makefile
+.vscode/
+*.code-workspace
+LICENSE.txt
+Navigation

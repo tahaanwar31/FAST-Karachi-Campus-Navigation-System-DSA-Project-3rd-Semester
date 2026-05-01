@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>FAST Campus Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Welcome Screen -->
+    <div id="welcome" class="welcome-overlay">
+        <div class="welcome-panel">
+            <h1>FAST Campus Navigation</h1>
+            <p class="subtitle">FAST NUCES Karachi</p>
+            <p class="credits-title">Built by</p>
+            <div class="credits-names">Taha Anwar<br>Hassan Nasir<br>Asad Khan</div>
+            <button class="start-btn" onclick="dismissWelcome()">Start Navigation</button>
+        </div>
+    </div>
+
+    <!-- Credits Overlay -->
+    <div id="credits-overlay" class="credits-overlay" onclick="if(event.target===this)toggleCredits()">
+        <div class="credits-panel">
+            <button class="close-btn" onclick="toggleCredits()">&times;</button>
+            <h2>Credits</h2>
+            <div class="name">Taha Anwar</div>
+            <div class="name">Hassan Nasir</div>
+            <div class="name">Asad Khan</div>
+            <p class="dept">FAST NUCES Karachi &middot; DSA Project 2025</p>
+        </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <input type="text" id="search-input" placeholder="Search Room (e.g. A-1)..." autocomplete="off" />
+    <script src="app.js"></script>
+</body>
+</html>
